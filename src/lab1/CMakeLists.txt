@@ -16,7 +16,9 @@ find_package(std_msgs REQUIRED)
 # ---- legg til programmet ditt her ----
 add_executable(lab1
         src/joint_simulator_node.cpp
-        )
+        ../cpp_srvcli/src/reference_input_node.cpp
+        ../cpp_srvcli/src/reference_input_node.cpp
+)
 target_include_directories(lab1 PUBLIC
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/INCLUDE>
         $<INSTALL_INTERFACE:include>

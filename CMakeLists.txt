@@ -20,6 +20,7 @@ find_package(ament_cmake REQUIRED)
 # Add each package as a subdirectory
 add_subdirectory(src/lab1)
 add_subdirectory(src/pid_controller_msgs)
+add_subdirectory(src/cpp_srvcli)
 #add_subdirectory(src/examples/rclcpp/topics/minimal_subscriber)
 
 # ---- colcon build target ----
