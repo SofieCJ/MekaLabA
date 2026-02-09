@@ -1,0 +1,53 @@
+# ROS2 / colcon
+build/
+install/
+log/
+
+# CMake / CLion
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+cmake-build-*/
+cmake-build-debug/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+
+# CLion / IDEs
+.idea/
+.vscode/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+dist/
+build/              # safe to ignore globally (Python/colcon builds)
+pip-wheel-metadata/
+
+# Logs / temp / editor swap
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Misc
+*.bak
+*.dir-locals.el
